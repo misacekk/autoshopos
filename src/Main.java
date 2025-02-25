@@ -20,7 +20,7 @@ public class Main {
 
             switch(vstup) {
                 case "1":
-                    CarDatabase carDatabase = new CarDatabase();
+                    CarDatabase carDatabase = new CarDatabase("Michal");
                     System.out.println("Kolik si prejete pridat aut?");
                     int pocet = sc.nextInt();
                     sc.nextLine();
